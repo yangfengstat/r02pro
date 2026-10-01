@@ -41,8 +41,8 @@ A data frame with variables:
 \item{smoking}{Percentage of both men and women (over age 15) that smoke}
 \item{food_supply}{Caloreis measures the energy content of the food. The required intake varies, but it is normally in the range of 1500- 3000 kilocalories per day. Unit: kilocalories per person and day}
 \item{owid_edu_idx}{OWID Education Index: Education index calculated based on Avg years of schooling, taking values 0 as minimum and 15 as maximum.}
-\item{average_daily_income}{This is the average daily household per capita income or consumption expenditure from the survey expressed in 2011 PPP. Unit: $1,000}
-\item{income_per_person}{Gross domestic product per person adjusted for differences in purchasing pwoer (in international $, fixed 2017 prices, PPP based on 2017 ICP). Unit: $1,000}
+\item{average_daily_income}{This is the average daily household per capita income or consumption expenditure from the survey expressed in 2011 PPP. Unit: international dollars per person per day (2011 PPP)}
+\item{income_per_person}{Gross domestic product per person adjusted for differences in purchasing power (in international $, fixed 2017 prices, PPP based on 2017 ICP). Unit: international dollars per person per year (2017 PPP)}
 \item{sanitation}{The percentage of people using at least basic sanitation services, that is, improved sanitation faciliteis that are not hsared with other households.}
 \item{child_mortality}{Death of children under five years of age per 1,000 live births. Unit: per 1000 live births}
 }

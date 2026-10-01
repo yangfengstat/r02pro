@@ -5,17 +5,17 @@
 #' @format A data frame with variables:
 #' \describe{
 #'   \item{country}{Country}
-#'   \item{year}{the year of 2004}
+#'   \item{year}{Year of the observation (1799 to 2099, later years are projections)}
 #'   \item{smoking_female}{Percentage of female (over age 15) that smoke}
 #'   \item{smoking_male}{Percentage of male (over age 15) that smoke}
 #'   \item{lungcancer_newcases_female}{Number of new female cases of lung cancer in 100,000 residents, adjusting each country's age composition to the world population. Unit: person per 100,000 people}
 #'   \item{lungcancer_newcases_male}{Number of new male cases of lung cancer in 100,000 residents, adjusting each country's age composition to the world population. Unit: person per 100,000 people}
 #'   \item{owid_edu_idx}{OWID Education Index: Education index calculated based on Avg years of schooling, taking values 0 as minimum and 15 as maximum.}
 #'   \item{food_supply}{Calories measures the energy content of the food. The required intake varies, but it is normally in the range of 1500-3000 kilocalories per day. Unit: kilocalories per person and day}
-#'   \item{average_daily_income}{This is the average daily household per capita income or consumption expenditure from the survey expressed in 2011 PPP. Unit: $1,000}
+#'   \item{average_daily_income}{This is the average daily household per capita income or consumption expenditure from the survey expressed in 2011 PPP. Unit: international dollars per person per day (2011 PPP)}
 #'   \item{sanitation}{The percentage of people using at least basic sanitation services, that is, improved sanitation facilities that are not shared with other households.}
 #'   \item{child_mortality}{Death of children under five years of age per 1,000 live births. Unit: per 1000 live births}
-#'   \item{income_per_person}{Gross domestic product per person adjusted for differences in purchasing power (in international $, fixed 2017 prices, PPP based on 2017 ICP). Unit: $1,000}
+#'   \item{income_per_person}{Gross domestic product per person adjusted for differences in purchasing power (in international $, fixed 2017 prices, PPP based on 2017 ICP). Unit: international dollars per person per year (2017 PPP)}
 #'   \item{HDI}{Human Development Index. An index used to rank countries by the level of "human development" from three dimensions: health level, educational level, and living standard.}
 #'   \item{alcohol_male}{Total alcohol consumption per capita, male, liters of pure alcohol, 15+ years of age.}
 #'   \item{alcohol_female}{Total alcohol consumption per capita, female, liters of pure alcohol, 15+ years of age.}
@@ -35,7 +35,7 @@
 #'     }
 #'   }
 #'   \item{region}{Sub specification of the region that a country belongs to}
-#'   \item{population}{Total population of each country in 2004. Unit: 1,000 people}
+#'   \item{population}{Total population of each country in the given year. Unit: 1,000 people}
 #'   \item{life_expectancy}{The average number of years a newborn child would live if current mortality patterns were to stay the same. Unit: year}
 #'   \item{sugar}{The quantity of food consumption of sugar and sweeteners per person. Unit: grams per person and day}
 #'   \item{BMI_female}{The mean BMI (Body Mass Index) of the female population; this mean is calculated as if each country has the same age composition as the world population. Unit: Kilogram per square meter}

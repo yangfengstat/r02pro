@@ -1,6 +1,6 @@
 Package: r02pro
 Title: R Programming: Zero to Pro
-Version: 0.2
+Version: 0.2.1
 Authors@R: c(person(given = "Yang",
            family = "Feng",
            role = c("aut", "cre"),

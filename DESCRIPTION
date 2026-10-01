@@ -18,10 +18,6 @@ Depends: R (>= 3.5.0)
 RoxygenNote: 7.2.3
 Imports: learnr
 LazyData: true
-NeedsCompilation: no
-Packaged: 2023-05-31 13:57:39 UTC; yangfeng
 Author: Yang Feng [aut, cre],
   Jianan Zhu [aut]
 Maintainer: Yang Feng <yangfengstat@gmail.com>
-Repository: CRAN
-Date/Publication: 2023-05-31 14:30:02 UTC

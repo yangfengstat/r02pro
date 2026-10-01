@@ -67,7 +67,7 @@ A data frame with variables:
 \itemize{
 \item{Very high: HDI above 0.800}
 \item{High: HDI between 0.700 and 0.799}
-\item{Medium: HDI between 0.550–0.699}
+\item{Medium: HDI between 0.550 and 0.699}
 \item{Low: HDI below 0.549}
 }
 }

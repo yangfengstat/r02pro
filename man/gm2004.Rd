@@ -31,11 +31,11 @@ A data frame with variables:
 \item{GDP_per_capita}{Inflation-adjusted gross domestic product divided by midyear population. GDP is the sum of gross value added by all residents producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degredation of natural resources. Unit: $1,000}
 \item{HDI}{Human Development Index. An index used to rank countries by level of "human development" from three dimensions: health level, educational level, and living standard.}
 \item{HDI_category}{Human Development Index categories
-\itemize{
-\item{Very high: }{HDI above 0.800}
-\item{High: }{HDI between 0.700 and 0.799}
-\item{Medium: }{HDI between 0.550–0.699}
-\item{Low: }{HDI below 0.549}
+\describe{
+\item{Very high}{HDI above 0.800}
+\item{High}{HDI between 0.700 and 0.799}
+\item{Medium}{HDI between 0.550 and 0.699}
+\item{Low}{HDI below 0.549}
 }
 }
 \item{smoking}{Percentage of both men and women (over age 15) that smoke}
